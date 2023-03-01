@@ -20,9 +20,9 @@ You should fork this repo so you can edit the `Dockerfile` to include whatever p
 
 2. On the bottom left hand corner under the settings button, click the box with the two arrows opposing each other 
 
-3. Select **Reopen in Container** in the list of options that pops up. The first time you do this, it will take a while because it has to pull the base Docker image down. It'll open pretty fast after the first time. You'll know it's worked once the bottom left corner says **Dev Container: Brooklyn Project** and the terminal pops up with `root` as the user.
+3. Select **Reopen in Container** in the list of options that pops up. The first time you do this, it will take a while because it has to pull the base Docker image down. It'll open pretty fast after the first time. You'll know it's worked once the bottom left corner says **Dev Container: ROS Melodic + PX4 Workspace** and the terminal pops up with `root` as the user.
 
-Good job! You are now developing on a fully fledged ROS + Ubuntu 20.04 container. This is the software stack that'll be running on the Raspberry Pi, so hopefully anything that works in here will work on there.
+Good job! You are now developing on a fully fledged ROS + Ubuntu 18.04 container. This is the software stack that'll be running on the Raspberry Pi, so hopefully anything that works in here will work on there.
 
 ## More setup in your dev container (only needs to be done once)
 
